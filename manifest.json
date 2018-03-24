@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Something To Do",
+  "version": "1.0",
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to view your to-do list",
+  "homepage_url": "https://github.com/kalyssao",
+  "icons": {
+    "48": "icons/alarm.svg"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/alarm.svg",
+    "default_title": "To Do",
+    "default_popup": "popup/pop_up.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "todo@example.com"
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="pop_up.css"/>
+</head>
+
+<body>
+	<div id="popup-header">
+		<h1> The List </h1>
+		<input type="text" id="myInput" placeholder="To do..">
+		<span onClick="newElement()" class="addBtn">Add</span>
+		<!--using onClick to open a defined JS function called newElement() which determines the adding of a new element-->
+	</div>
+	<ul id="myList">
+		<li>Be awesome</li>
+		<li class ="checked">ES Homework 5</li>
+		<li class = "checked">Something To Do</li>
+		<li>CS Homework 1</li>
+		<li>SQL Teach Yourself</li>
+		<li>Java Teach Yourself</li>
+	</ul>
+	<script src="pop_up.js"></script>
+</body>
+</html>
